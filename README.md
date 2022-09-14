@@ -1,6 +1,6 @@
 # Encrypting images using AES (CBC mode)
 
-- Uses a random (pseudorandom) initial vector and adds padding to encrypt and decrypt images
+- Uses a random (pseudorandom from os.urandom) initial vector and adds padding to encrypt and decrypt images
 
 - unfortunate problems: https://docs.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode
 
